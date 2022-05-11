@@ -46,17 +46,28 @@
 // let idadeEmHoras = idadeEmDias * 24
 // console.log("Sua idade em meses", idadeEmMeses, "em dias", idadeEmDias, "e em horas", idadeEmHoras)
 
-let numero1 = prompt("Insira um número")
-let numero2 = prompt("Insira outro número")
-let resultado1 = numero1 > numero2
-console.log(resultado1)
-let resultado2 = numero1 === numero2
-console.log(resultado2)
-let resultado3 = numero1 / numero2
-let resultado = resultado3 === 0
-console.log(resultado)
-let resultado4 = (numero2 / numero1) === 0
-console.log(resultado4)
-
+// let numero1 = prompt("Insira um número")
+// let numero2 = prompt("Insira outro número")
+// let resultado1 = numero1 > numero2
+// console.log(resultado1)
+// let resultado2 = numero1 === numero2
+// console.log(resultado2)
+// let resultado3 = numero1 / numero2
+// let resultado = resultado3 === 0
+// console.log(resultado)
+// let resultado4 = (numero2 / numero1) === 0
+// console.log(resultado4)
 
 // console.log(resultado1, resultado2, resultado3, resultado4)
+
+
+// let fahrenheit = 77
+// let paraKelvin = (fahrenheit - 32) * (5/9) + 273.15
+// console.log(paraKelvin, "K")
+
+// let celsius =   80
+// let paraFahre = (celsius) * (9/5) + 32
+// console.log(paraFahre, "Fº")
+
+let celsius = 30
+let celsiusParaFahre = ((9/5) + 32) * 
