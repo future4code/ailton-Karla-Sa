@@ -88,16 +88,25 @@ function calculaIngressosEspetaculo(custo, valorIngresso) {
 // EXERCÍCIO 08
 function checaStringsMesmoTamanho(string1, string2) {
   // implemente sua lógica aqui
-const palavra1 = string1
-const palavra2 = string2
-const conferirTamanho = string1.length !== string2.lenght
+string1 = ("ola").length
+string2 = ("abc").length
+const conferirTamanho =  string1 !== string2  
+
 return conferirTamanho
+// console.log(checaStringsMesmoTamanho)
 }
 
 // EXERCÍCIO 09
-function retornaPrimeiroElemento(array) {
+function retornaPrimeiroElemento(elemento1, elemento2, elemento3) {
   // implemente sua lógica aqui
+const lista= [
+  elemento1 = "laranja",
+  elemento2 = "Banana",
+  elemento3 = "Maçã"
+ ]
+ const elementoEscolhido = lista[0]
 
+ return elementoEscolhido
 }
 
 // EXERCÍCIO 10
