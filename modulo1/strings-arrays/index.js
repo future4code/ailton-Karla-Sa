@@ -31,13 +31,27 @@
 
 // // Faça um programa que contenha um array com 5 das suas comidas preferidas, armazenado em uma variável
 
-// const listaComidasPreferidas = ["Macarrão", "Arrroz", "Comida Japonesa", "Pizza", "Peixe"]
-// // console.log(listaComidasPreferidas)
+const listaComidasPreferidas = [
+    "Macarrão", 
+    "Arrroz", 
+    "Comida Japonesa", 
+    "Pizza", 
+    "Peixe"
+]
+console.log(listaComidasPreferidas)
 
-// console.log("Essas são as minhas comidas preferidas:"
-// , listaComidasPreferidas) 
-// const comidaUser = prompt("Qual é a sua comida favorita?")
-// console.log(comidaUser)
+console.log("Essas são as minhas comidas preferidas:")
+console.log(listaComidasPreferidas[0])
+console.log(listaComidasPreferidas[1])
+console.log(listaComidasPreferidas[2])
+console.log(listaComidasPreferidas[3])
+console.log(listaComidasPreferidas[4])
+
+
+const comidaUser = prompt("Qual é a sua comida favorita?")
+listaComidasPreferidas[1] = comidaUser
+console.log(listaComidasPreferidas)
+
 // listaComidasPreferidas[1] = comidaUser
 // console.log(listaComidasPreferidas)
 
@@ -46,8 +60,11 @@ const listaDeTarefas = []
 const tarefasUser1 = prompt("Digite uma tarefa sua de hoje")
 const tarefaUser2 = prompt("Digite outra tarefa")
 const tarefasUser3 = prompt("Digite mais uma tarefa")
-console.log("Essas são as suas tarefas"
-, [tarefasUser1, tarefaUser2, tarefasUser3])
+listaDeTarefas.push(tarefasUser1)
+
 
 const tarefaEscolhida = prompt("Escolha uma tarefa")
-console.log()
+listaDeTarefas.splice(number(tarefaEscolhida), 1)
+console.log(listaDeTarefas)
+
+
